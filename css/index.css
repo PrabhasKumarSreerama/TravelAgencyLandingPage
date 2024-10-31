@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.volkhov-regular {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    background-color: #FEFCFB;
+}
+
+@media screen and (max-width: 800px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+}
+
+.nav-logo {
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 1rem;
+}
+
+.nav-logo-name {
+    color: #222222;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-logo-icon {
+    height: 1.5rem;
+}
+
+.nav-logo-icon img {
+    height: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 380px) {
+
+    .nav-menu {
+        flex-direction: column;
+    }
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 1rem;
+    align-items: end;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+    color: #FA7436;
+}
+
+.nav-btn {
+    display: flex;
+}
+
+.nav-btn button {
+    width: 160px;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #FEFCFB;
+    color: #FD8D3A;
+    border: none;
+    font-family: pop;
+}
+
+.nav-btn button:hover {
+    background-color: #FA7436;
+    color: #FFFFFF;
+}
